@@ -1,0 +1,35 @@
+{
+    "name": "lari/omnipay-offsite",
+    "description": "OffsiteGateway for Omnipay",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "payment",
+        "offsite",
+        "purchase"
+    ],
+
+    "authors": [
+        {
+            "name": "Sebastian Szczepanski",
+            "email": "sebastian@ably.pl"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "omnipay/common": "^3.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3.0"
+    },
+    "autoload": {
+        "branch-alias": {
+            "dev-develop": "1.0.x-dev"
+        },
+        "psr-4": {
+            "Omnipay\\Offsite\\": "src/"
+        }
+    }
+}
