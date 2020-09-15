@@ -1,5 +1,5 @@
 {
-    "name": "lari/omnipay-offsite",
+    "name": "nighthawks/omnipay-offsite",
     "description": "OffsiteGateway for Omnipay",
     "keywords": [
         "gateway",
