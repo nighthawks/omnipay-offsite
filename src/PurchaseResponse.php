@@ -40,6 +40,6 @@ class PurchaseResponse extends AbstractResponse
      */
     public function isRedirect()
     {
-        return true;
+        return false;
     }
 }
